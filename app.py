@@ -57,7 +57,7 @@ with_text = input("with [leave blank for none] > ").strip().title()
 
 # * background photo
 img = Image.new("RGB", (1080, 1920))
-bg = Image.open("Assets/Font/bg.png")
+bg = Image.open("Assets/Image/bg.png")
 img.paste(bg)
 img.paste(bg.transpose(Image.FLIP_TOP_BOTTOM), (0, img.height//2))
 img.putalpha(overlay_transparency)
@@ -103,7 +103,7 @@ bg_photo_name = input("background photo name > ")
 if bg_photo_name:
     while True:
         try:
-            bg_photo = Image.open(bg_photo_name)
+            bg_photo = Image.open("Uploads/" + bg_photo_name)
             break
         except FileNotFoundError:
             print("wrong filename")
