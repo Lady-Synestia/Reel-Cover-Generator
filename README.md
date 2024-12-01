@@ -2,7 +2,7 @@
 
 A program made using Pillow in Python to easily generate covers for the Portsmouth Climbing Club instagram
 
-## Installation and Usage:
+## Installation and Usage
 
 - Download the [latest release](https://github.com/Lady-Synestia/Reel-Cover-Generator/releases), and extract the zip.
 
