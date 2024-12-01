@@ -28,7 +28,6 @@ A program made using Pillow in Python to easily generate covers for the Portsmou
 If you have any other suggestions let me know!
 
 - Creating packaged application using pyinstaller for easier distribution.
-- Auto text-wrapping for the subtitle.
 - Tkinter GUI for easier use.
 - Option to generate same cover with multiple title options.
 - Option to generate same cover with multiple background image options.
