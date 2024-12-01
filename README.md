@@ -23,3 +23,13 @@ A program made using Pillow in Python to easily generate covers for the Portsmou
 - `overlay.png`: Transparent purple overlay image with text and logo.
 
 - `cover.png`: Final cover image (`1080x1920`), save this to the drive and upload to Instagram. 
+
+## Chloe's TODO list
+If you have any other suggestions let me know!
+
+- Creating packaged application using pyinstaller for easier distribution.
+- Auto text-wrapping for the subtitle.
+- Tkinter GUI for easier use.
+- Option to generate same cover with multiple title options.
+- Option to generate same cover with multiple background image options.
+- Possibility of download/upload of images directly from the google drive?
