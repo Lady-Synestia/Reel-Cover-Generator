@@ -4,7 +4,7 @@ A program made using Pillow in Python to easily generate covers for the Portsmou
 
 ## Installation and Usage:
 
-- Download the latest release:[], and extract the zip.
+- Download the [latest release](https://github.com/Lady-Synestia/Reel-Cover-Generator/releases), and extract the zip.
 
 - Add any background photos you want to use to /Uploads. (I recommend renaming them to something simple and easy to type out).
 
