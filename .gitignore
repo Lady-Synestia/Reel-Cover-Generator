@@ -1,4 +1,5 @@
 cover.png
 overlay.png
 
-/Uploads/*
+Uploads/*
+!Uploads/add_background_photos_here
