@@ -2,11 +2,13 @@
 
 A program made using Pillow in Python to easily generate covers for the Portsmouth Climbing Club instagram
 
-## Using the program:
+## Installation and Usage:
 
-- Add any background photos you want to use to /Uploads. (I recommend renaming them to something simple and easy to type out)
+- Download the latest release:[], and extract the zip.
 
-- Run `app.py`
+- Add any background photos you want to use to /Uploads. (I recommend renaming them to something simple and easy to type out).
+
+- Run `app.exe`.
 
 ### Program Options:
 
