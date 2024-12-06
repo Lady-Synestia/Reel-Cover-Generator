@@ -2,9 +2,7 @@ from PIL import Image, ImageDraw, ImageFont
 import math
 from pathlib import Path
 
-def find_nearest_space(text: list, index: int, *search_range: int) -> int:
-    if not search_range:
-        search_range = index
+def find_nearest_space(text: list, index: int, search_range: int) -> int:
         
     index -= 1
     for offset in range(0, search_range//2):
@@ -51,7 +49,7 @@ def format_subtitle(text: str) -> str:
 
     character_list = list(" ".join(words))
     if "," in character_list and len(character_list) > line_length:
-        br = find_nearest_space(character_list, line_length)
+        br = find_nearest_space(character_list, line_length, line_length)
         character_list[br] = "\n"
 
     return "".join(character_list)

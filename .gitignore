@@ -1,5 +1,5 @@
 cover.png
 overlay.png
-
+__pycache__/
 Uploads/*
 !Uploads/add_background_photos_here
